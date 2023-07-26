@@ -235,27 +235,7 @@
     
         
     <script>
-	//lấy chỗ bấm
-        const logins = document.querySelectorAll('.js-dangnhap');
-		//add nó vào
-        const modallgin = document.querySelector('.js-login-DN');
-		//nút mà ấn
-        const btndangnhap = document.querySelector('.js-btn');
-        function openLogin(){
-            modallgin.classList.add('open-dangnhap');
-        }
-
-        function closeLogin() {
-            modallgin.classList.remove('open-dangnhap');
-            alert('Chúc mừng bạn đăng nhập thành công!!!');
-        }
-
-        for(login of logins){ 
-            login.addEventListener('click',openLogin);
-        }
-
-        btndangnhap.addEventListener('click',closeLogin);
-
+	
 
 
         //reponship
